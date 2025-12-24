@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdullah Fashion Designer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Abdullah Fashion Designer</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#mens">Men's Designs</a></li>
+                <li><a href="#womens">Women's Designs</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Abdullah Fashion Designer</h2>
+        <p>Explore all kinds of fashion designs for men and women. From casual wear to formal attire, we have it all.</p>
+        <img src="hero-image.jpg" alt="Fashion Designs" style="width:100%; max-width:600px;">
+    </section>
+
+    <section id="mens">
+        <h2>Men's Designs</h2>
+        <p>Stylish outfits for every occasion.</p>
+        <div class="gallery">
+            <img src="men-design1.jpg" alt="Men's Design 1">
+            <img src="men-design2.jpg" alt="Men's Design 2">
+            <!-- Add more images -->
+        </div>
+    </section>
+
+    <section id="womens">
+        <h2>Women's Designs</h2>
+        <p>Elegant and trendy fashion for women.</p>
+        <div class="gallery">
+            <img src="women-design1.jpg" alt="Women's Design 1">
+            <img src="women-design2.jpg" alt="Women's Design 2">
+            <!-- Add more images -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@abdullahfashiondesigner.com</p>
+        <p>Phone: +1-234-567-890</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Abdullah Fashion Designer. All rights reserved.</p>
+    </footer>
+</body>
+</html>
